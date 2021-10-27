@@ -1,0 +1,9 @@
+val S = Set("1", "5", "5", "6")
+val T = Set("1", "5", "{5}")
+val U = union(S, T)
+val V = intersect(S, T)
+
+println(S)
+println(T)
+println(U)
+println(V)
